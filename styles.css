@@ -13,11 +13,11 @@ body {
 }
 .navbar {
 	display: flex;
-	justify-content:flex-start ;
 	align-items: center;
-	padding: 20px;
+	padding: 10px;
 	background-color: #000;
 	margin: 0px;
+	justify-content: space-between;
 }
 
 .logo a {
@@ -25,11 +25,12 @@ body {
 	font-weight: bold;
 	text-decoration: none;
 	color: #c5c5c5;
+	margin-left: 10px;
 }
 
 .nav-links {
-	display: flex;
-	margin: 0;
+	display:flex;
+	margin: 30px;
 	padding: 0;
 	list-style: none;
 }
@@ -51,7 +52,12 @@ body {
 	color: #ffffff;
 }
 
-
+.logo img{
+	padding-right: 10px;
+	width: 30px;
+	height: 30px;
+	align-items: center;
+}
 /**
  * Другие стили
  */
