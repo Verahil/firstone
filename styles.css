@@ -1,0 +1,60 @@
+/**
+ * Базовые стили для всего сайта
+ */
+body {
+	position: relative;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #000;
+	min-width: 320px;
+	overflow-x: hidden;
+	height: auto;
+}
+.navbar {
+	display: flex;
+	justify-content:flex-start ;
+	align-items: center;
+	padding: 20px;
+	background-color: #000;
+	margin: 0px;
+}
+
+.logo a {
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #c5c5c5;
+}
+
+.nav-links {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.nav-links li {
+	margin-left: 30px;
+}
+
+.nav-links a {
+	text-decoration: none;
+	color: #666;
+	transition: color 0.3s ease;
+}
+
+.nav-links a:hover{
+	color: #fff;
+}
+.nav-links a.active {
+	color: #ffffff;
+}
+
+
+/**
+ * Другие стили
+ */
+
+
+
